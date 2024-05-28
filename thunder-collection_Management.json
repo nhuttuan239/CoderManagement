@@ -1,0 +1,122 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "Management",
+  "collectionId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+  "dateExported": "2024-05-28T16:53:54.998Z",
+  "version": "1.2",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "f7145925-2b21-4f96-bd52-8b8caac693d9",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "createUser",
+      "url": "https://codermanagement-yk6b.onrender.com/users",
+      "method": "POST",
+      "sortNum": 10000,
+      "created": "2024-05-28T15:34:42.220Z",
+      "modified": "2024-05-28T15:45:07.497Z",
+      "headers": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\":\"Hai Huy\"\n \n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "0e160098-e748-4ff1-96cc-72318ec4abc4",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "getAllUsers",
+      "url": "https://codermanagement-yk6b.onrender.com/users",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2024-05-28T15:46:14.782Z",
+      "modified": "2024-05-28T15:47:00.852Z",
+      "headers": []
+    },
+    {
+      "_id": "8898a50f-cf8b-4fd6-a545-7eec7155b1d3",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "getUserByName",
+      "url": "https://codermanagement-yk6b.onrender.com/users/getUser/Hai Huy",
+      "method": "GET",
+      "sortNum": 30000,
+      "created": "2024-05-28T15:47:38.845Z",
+      "modified": "2024-05-28T15:48:58.439Z",
+      "headers": []
+    },
+    {
+      "_id": "80471aab-38c0-4ca2-8c3b-0cfb0fe8ec4c",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "createTask",
+      "url": "https://codermanagement-yk6b.onrender.com/task",
+      "method": "POST",
+      "sortNum": 40000,
+      "created": "2024-05-28T16:37:44.270Z",
+      "modified": "2024-05-28T16:42:32.720Z",
+      "headers": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\": \"Task 4\",\n  \"description\":\"Task 4 is a new task\"\n}",
+        "form": []
+      }
+    },
+    {
+      "_id": "db44415b-742f-4df8-8349-d9aad662fb86",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "getTask",
+      "url": "https://codermanagement-yk6b.onrender.com/task/",
+      "method": "GET",
+      "sortNum": 50000,
+      "created": "2024-05-28T16:43:12.597Z",
+      "modified": "2024-05-28T16:53:21.698Z",
+      "headers": []
+    },
+    {
+      "_id": "7aa4aff3-94c4-40ef-a164-87122ff124a4",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "getTaskById",
+      "url": "https://codermanagement-yk6b.onrender.com/task/6656095e99fdb3999fc6f5c3",
+      "method": "GET",
+      "sortNum": 60000,
+      "created": "2024-05-28T16:44:31.739Z",
+      "modified": "2024-05-28T16:45:16.897Z",
+      "headers": []
+    },
+    {
+      "_id": "a9282b53-5282-4e4d-8de7-fdf23cb72b91",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "assignTask",
+      "url": "https://codermanagement-yk6b.onrender.com/task/assign/6655fbc1ce2e88583b98a01c/6656097899fdb3999fc6f5c5",
+      "method": "PUT",
+      "sortNum": 70000,
+      "created": "2024-05-28T16:46:03.031Z",
+      "modified": "2024-05-28T16:48:21.774Z",
+      "headers": []
+    },
+    {
+      "_id": "d0b76cc7-5eeb-4766-a4c7-0175013a2ff6",
+      "colId": "2b5f52cd-4dfd-4538-9aaa-cc1485ea17a6",
+      "containerId": "",
+      "name": "updateStatus",
+      "url": "https://codermanagement-yk6b.onrender.com/task/update/6656095e99fdb3999fc6f5c3",
+      "method": "PUT",
+      "sortNum": 80000,
+      "created": "2024-05-28T16:49:22.039Z",
+      "modified": "2024-05-28T16:53:01.770Z",
+      "headers": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"status\":\"done\"\n}",
+        "form": []
+      }
+    }
+  ],
+  "ref": "81G5vtwsqQEJ8ZP97dUC-wq897AqGY4Ywm1plmya2XG9lGMJcX7Bv6fjTE9nyvSGA25PWUZ2RLwNMZGEXFcXlg"
+}
